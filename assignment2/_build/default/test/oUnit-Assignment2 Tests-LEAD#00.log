@@ -1,0 +1,191 @@
+2025-09-15T02:10:33+00:00 LEAD#00 I: Runner: processes
+2025-09-15T02:10:33+00:00 LEAD#00 I: Chooser: simple
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration suite_name = "Assignment2 Tests"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration cache_filename = "/home/tobi/FPSE/assignment2/_build/default/test/oUnit-$(suite_name).cache"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration run_gc_full_major = "true"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration display = "true"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration results_style_1_X = "false"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration testdata_dir = "none"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration health_check_interval = "1."
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration verbose = "false"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration chooser = "simple"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration output_html_dir = "none"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration processes_kill_period = "5."
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration runner = "processes"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration shards = "8"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration processes_grace_period = "5."
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration log_encoding = "utf-8"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration output_junit_file = "none"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration ci = "false"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Configuration output_file = "/home/tobi/FPSE/assignment2/_build/default/test/oUnit-$(suite_name)-$(shard_id).log"
+2025-09-15T02:10:33+00:00 LEAD#00 I: Using 8 workers maximum.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Starting worker number LEAD#01.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#01 started.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Starting worker number LEAD#02.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#02 started.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Starting worker number LEAD#03.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#03 started.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Starting worker number LEAD#04.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#04 started.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Starting worker number LEAD#05.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#05 started.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Starting worker number LEAD#06.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#06 started.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Starting worker number LEAD#07.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#07 started.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Starting worker number LEAD#08.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#08 started.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog., Assignment2 Tests:1:Reimplementation tests:0:Factors, Assignment2 Tests:0:Student tests:1:Dummy test 2, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#01 I: Start test Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#02 I: Start test Assignment2 Tests:0:Student tests:1:Dummy test 2.
+2025-09-15T02:10:33+00:00 LEAD#03 I: Start test Assignment2 Tests:1:Reimplementation tests:0:Factors.
+2025-09-15T02:10:33+00:00 LEAD#04 I: Start test Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#05 I: Start test Assignment2 Tests:1:Reimplementation tests:2:Remove max.
+2025-09-15T02:10:33+00:00 LEAD#06 I: Start test Assignment2 Tests:1:Reimplementation tests:3:Flatten.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog., Assignment2 Tests:1:Reimplementation tests:0:Factors, Assignment2 Tests:0:Student tests:1:Dummy test 2, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#07 I: Start test Assignment2 Tests:2:Divisors tests:0:Is Prime.
+2025-09-15T02:10:33+00:00 LEAD#08 I: Start test Assignment2 Tests:2:Divisors tests:1:Is Perfect.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog., Assignment2 Tests:1:Reimplementation tests:0:Factors, Assignment2 Tests:0:Student tests:1:Dummy test 2, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#02 I: Test Assignment2 Tests:0:Student tests:1:Dummy test 2 is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog., Assignment2 Tests:1:Reimplementation tests:0:Factors, Assignment2 Tests:0:Student tests:1:Dummy test 2, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#02 I: End test Assignment2 Tests:0:Student tests:1:Dummy test 2.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog., Assignment2 Tests:1:Reimplementation tests:0:Factors, Assignment2 Tests:0:Student tests:1:Dummy test 2, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog., Assignment2 Tests:1:Reimplementation tests:0:Factors, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#02 I: Start test Assignment2 Tests:2:Divisors tests:2:Are buddies.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog., Assignment2 Tests:1:Reimplementation tests:0:Factors, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#03 I: Test Assignment2 Tests:1:Reimplementation tests:0:Factors is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog., Assignment2 Tests:1:Reimplementation tests:0:Factors, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#03 I: End test Assignment2 Tests:1:Reimplementation tests:0:Factors.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog., Assignment2 Tests:1:Reimplementation tests:0:Factors, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:0:Square size, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog., Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#01 I: Test Assignment2 Tests:0:Student tests:0:Dummy test 1 is successful.
+2025-09-15T02:10:33+00:00 LEAD#03 I: Start test Assignment2 Tests:3:Towers tests:0:Square size.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:0:Square size, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog., Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#01 I: End test Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:0:Square size, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog., Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:1:Elements_span_range, Assignment2 Tests:3:Towers tests:0:Square size, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#01 I: Start test Assignment2 Tests:3:Towers tests:1:Elements_span_range.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:1:Elements_span_range, Assignment2 Tests:3:Towers tests:0:Square size, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#05 I: Test Assignment2 Tests:1:Reimplementation tests:2:Remove max is successful.
+2025-09-15T02:10:33+00:00 LEAD#06 I: Test Assignment2 Tests:1:Reimplementation tests:3:Flatten is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:1:Elements_span_range, Assignment2 Tests:3:Towers tests:0:Square size, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#05 I: End test Assignment2 Tests:1:Reimplementation tests:2:Remove max.
+2025-09-15T02:10:33+00:00 LEAD#06 I: End test Assignment2 Tests:1:Reimplementation tests:3:Flatten.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:1:Elements_span_range, Assignment2 Tests:3:Towers tests:0:Square size, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:3:Flatten, Assignment2 Tests:1:Reimplementation tests:2:Remove max, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#07 I: Test Assignment2 Tests:2:Divisors tests:0:Is Prime is successful.
+2025-09-15T02:10:33+00:00 LEAD#08 I: Test Assignment2 Tests:2:Divisors tests:1:Is Perfect is successful.
+2025-09-15T02:10:33+00:00 LEAD#03 I: Test Assignment2 Tests:3:Towers tests:0:Square size is successful.
+2025-09-15T02:10:33+00:00 LEAD#01 I: Test Assignment2 Tests:3:Towers tests:1:Elements_span_range is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:3:Towers tests:1:Elements_span_range, Assignment2 Tests:3:Towers tests:0:Square size, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#07 I: End test Assignment2 Tests:2:Divisors tests:0:Is Prime.
+2025-09-15T02:10:33+00:00 LEAD#08 I: End test Assignment2 Tests:2:Divisors tests:1:Is Perfect.
+2025-09-15T02:10:33+00:00 LEAD#03 I: End test Assignment2 Tests:3:Towers tests:0:Square size.
+2025-09-15T02:10:33+00:00 LEAD#01 I: End test Assignment2 Tests:3:Towers tests:1:Elements_span_range.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:3:Towers tests:1:Elements_span_range, Assignment2 Tests:3:Towers tests:0:Square size, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:2:Divisors tests:1:Is Perfect, Assignment2 Tests:2:Divisors tests:0:Is Prime, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#06 I: Start test Assignment2 Tests:3:Towers tests:2:Well_formed_grid.
+2025-09-15T02:10:33+00:00 LEAD#05 I: Start test Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 8 tests running : Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#01 I: Start test Assignment2 Tests:3:Towers tests:4:Verify left clues.
+2025-09-15T02:10:33+00:00 LEAD#08 I: Start test Assignment2 Tests:3:Towers tests:6:Rotate.
+2025-09-15T02:10:33+00:00 LEAD#07 I: Start test Assignment2 Tests:3:Towers tests:7:Is towers solution.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 8 tests running : Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#02 I: Test Assignment2 Tests:2:Divisors tests:2:Are buddies is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 8 tests running : Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#02 I: End test Assignment2 Tests:2:Divisors tests:2:Are buddies.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 8 tests running : Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:2:Divisors tests:2:Are buddies, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 7 tests running : Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#00 I: 7 tests running: Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#03 I: Start test Assignment2 Tests:3:Towers tests:5:Reflect.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 7 tests running : Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#00 I: 7 tests running: Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#04 I: Test Assignment2 Tests:1:Reimplementation tests:1:Arith. prog. is successful.
+2025-09-15T02:10:33+00:00 LEAD#06 I: Test Assignment2 Tests:3:Towers tests:2:Well_formed_grid is successful.
+2025-09-15T02:10:33+00:00 LEAD#01 I: Test Assignment2 Tests:3:Towers tests:4:Verify left clues is successful.
+2025-09-15T02:10:33+00:00 LEAD#03 I: Test Assignment2 Tests:3:Towers tests:5:Reflect is successful.
+2025-09-15T02:10:33+00:00 LEAD#08 I: Test Assignment2 Tests:3:Towers tests:6:Rotate is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 7 tests running : Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#00 I: 7 tests running: Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#04 I: End test Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#06 I: End test Assignment2 Tests:3:Towers tests:2:Well_formed_grid.
+2025-09-15T02:10:33+00:00 LEAD#01 I: End test Assignment2 Tests:3:Towers tests:4:Verify left clues.
+2025-09-15T02:10:33+00:00 LEAD#08 I: End test Assignment2 Tests:3:Towers tests:6:Rotate.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 7 tests running : Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#00 I: 7 tests running: Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:6:Rotate, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:4:Verify left clues, Assignment2 Tests:3:Towers tests:3:Number towers seen, Assignment2 Tests:3:Towers tests:2:Well_formed_grid, Assignment2 Tests:1:Reimplementation tests:1:Arith. prog..
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 3 tests running : Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 3 tests running: Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#07 I: Test Assignment2 Tests:3:Towers tests:7:Is towers solution is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 3 tests running : Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 3 tests running: Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#07 I: End test Assignment2 Tests:3:Towers tests:7:Is towers solution.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 3 tests running : Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 3 tests running: Assignment2 Tests:3:Towers tests:7:Is towers solution, Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 2 tests running : Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 2 tests running: Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#05 I: Test Assignment2 Tests:3:Towers tests:3:Number towers seen is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 2 tests running : Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 2 tests running: Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#05 I: End test Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 2 tests running : Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 2 tests running: Assignment2 Tests:3:Towers tests:5:Reflect, Assignment2 Tests:3:Towers tests:3:Number towers seen.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 1 tests running : Assignment2 Tests:3:Towers tests:5:Reflect.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 1 tests running: Assignment2 Tests:3:Towers tests:5:Reflect.
+2025-09-15T02:10:33+00:00 LEAD#03 I: End test Assignment2 Tests:3:Towers tests:5:Reflect.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Still 1 tests running : Assignment2 Tests:3:Towers tests:5:Reflect.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 1 tests running: Assignment2 Tests:3:Towers tests:5:Reflect.
+2025-09-15T02:10:33+00:00 LEAD#00 I: 0 tests running: .
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#06 has ended.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#01 has ended.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#07 has ended.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#05 has ended.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#03 has ended.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#02 died unexpectedly.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#04 died unexpectedly.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Worker LEAD#08 died unexpectedly.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Used 8 worker during test execution.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Run 3 tests with shard LEAD#01.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Run 2 tests with shard LEAD#08.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Run 2 tests with shard LEAD#02.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Run 2 tests with shard LEAD#06.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Run 2 tests with shard LEAD#05.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Run 3 tests with shard LEAD#03.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Run 2 tests with shard LEAD#07.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Run 1 tests with shard LEAD#04.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Check health of shard LEAD#01, 9 times.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Check health of shard LEAD#08, 10 times.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Check health of shard LEAD#02, 14 times.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Check health of shard LEAD#06, 9 times.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Check health of shard LEAD#05, 3 times.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Check health of shard LEAD#03, 1 times.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Check health of shard LEAD#07, 6 times.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Check health of shard LEAD#04, 10 times.
+2025-09-15T02:10:33+00:00 LEAD#00 I: ==============
+2025-09-15T02:10:33+00:00 LEAD#00 I: Summary:
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:3:Towers tests:5:Reflect is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:3:Towers tests:3:Number towers seen is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:3:Towers tests:7:Is towers solution is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:3:Towers tests:6:Rotate is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:3:Towers tests:4:Verify left clues is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:3:Towers tests:2:Well_formed_grid is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:1:Reimplementation tests:1:Arith. prog. is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:2:Divisors tests:2:Are buddies is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:3:Towers tests:1:Elements_span_range is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:3:Towers tests:0:Square size is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:2:Divisors tests:1:Is Perfect is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:2:Divisors tests:0:Is Prime is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:1:Reimplementation tests:3:Flatten is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:1:Reimplementation tests:2:Remove max is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:0:Student tests:0:Dummy test 1 is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:1:Reimplementation tests:0:Factors is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Test Assignment2 Tests:0:Student tests:1:Dummy test 2 is successful.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Ran: 17 tests in: 0.16 seconds.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Cases: 17.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Tried: 17.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Errors: 0.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Failures: 0.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Skip: 0.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Todo: 0.
+2025-09-15T02:10:33+00:00 LEAD#00 I: Timeout: 0.
