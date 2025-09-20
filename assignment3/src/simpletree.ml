@@ -27,11 +27,15 @@ type 'a t =
       ; left  : 'a t
       ; right : 'a t } [@@deriving show]
 
-let size (tree : 'a t) : int =
-  unimplemented ()
+let rec size (tree : 'a t) : int =
+  match tree with
+  | Branch a -> 1 + size a.left + size a.right
+  | Leaf -> 0
 
-let height (tree : 'a t) : int =
-  unimplemented ()
+let rec height (tree : 'a t) : int =
+  match tree with
+  | Branch a -> 1 + max (height a.left) (height a.right)
+  | Leaf -> 0
 
 let is_balanced (tree : 'a t) : bool =
   unimplemented ()
