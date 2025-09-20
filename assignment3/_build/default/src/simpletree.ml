@@ -27,17 +27,27 @@ type 'a t =
       ; left  : 'a t
       ; right : 'a t } [@@deriving show]
 
-let size (tree : 'a t) : int =
-  unimplemented ()
+let rec size (tree : 'a t) : int =
+  match tree with
+  | Branch a -> 1 + size a.left + size a.right
+  | Leaf -> 0;;
 
-let height (tree : 'a t) : int =
-  unimplemented ()
+let rec height (tree : 'a t) : int =
+  match tree with
+  | Branch a -> 1 + max (height a.left) (height a.right)
+  | Leaf -> 0;;
 
-let is_balanced (tree : 'a t) : bool =
-  unimplemented ()
+let rec is_balanced (tree : 'a t) : bool =
+  match tree with
+  | Branch a -> 
+    if abs begin height a.left - height a.right end > 1 then false
+    else is_balanced a.left && is_balanced a.right
+  | Leaf -> true;;
 
-let map (tree : 'a t) ~(f : 'a -> 'b) : 'b t =
-  unimplemented ()
+let rec map (tree : 'a t) ~(f : 'a -> 'b) : 'b t =
+  match tree with 
+    | Leaf -> Leaf 
+  | Branch a -> Branch {item = f a.item ; left = map a.left ~f; right = map a.right ~f};;
 
 let fold_left (tree : 'a t) ~(acc : 'acc) ~(f : 'acc -> 'a -> 'acc) : 'acc =
   unimplemented ()

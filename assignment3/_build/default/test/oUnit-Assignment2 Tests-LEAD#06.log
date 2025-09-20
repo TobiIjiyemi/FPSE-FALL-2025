@@ -1,0 +1,11 @@
+2025-09-20T22:05:39+00:00 LEAD#06 I: Start test Assignment2 Tests:1:simpletree tests:3:is_ordered.
+2025-09-20T22:05:39+00:00 LEAD#06 E: Test Assignment2 Tests:1:simpletree tests:3:is_ordered exited with an error.
+2025-09-20T22:05:39+00:00 LEAD#06 E: Failure("unimplemented") in test Assignment2 Tests:1:simpletree tests:3:is_ordered.
+2025-09-20T22:05:39+00:00 LEAD#06 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-20T22:05:39+00:00 LEAD#06 E: Called from Tree_tests.test_is_ordered in file "test/tree_tests.ml", line 43, characters 23-59
+2025-09-20T22:05:39+00:00 LEAD#06 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-20T22:05:39+00:00 LEAD#06 E: 
+2025-09-20T22:05:39+00:00 LEAD#06 I: End test Assignment2 Tests:1:simpletree tests:3:is_ordered.
+2025-09-20T22:05:39+00:00 LEAD#06 I: Start test Assignment2 Tests:2:simpledict tests:0:empty_and_size.
+2025-09-20T22:05:39+00:00 LEAD#06 I: Test Assignment2 Tests:2:simpledict tests:0:empty_and_size is successful.
+2025-09-20T22:05:39+00:00 LEAD#06 I: End test Assignment2 Tests:2:simpledict tests:0:empty_and_size.
