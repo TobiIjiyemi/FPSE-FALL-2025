@@ -49,8 +49,14 @@ let rec map (tree : 'a t) ~(f : 'a -> 'b) : 'b t =
     | Leaf -> Leaf 
   | Branch a -> Branch {item = f a.item ; left = map a.left ~f; right = map a.right ~f};;
 
-let fold_left (tree : 'a t) ~(acc : 'acc) ~(f : 'acc -> 'a -> 'acc) : 'acc =
-  unimplemented ()
+let rec fold_left (tree : 'a t) ~(acc : 'acc) ~(f : 'acc -> 'a -> 'acc) : 'acc =
+  match tree with 
+  | Leaf -> acc
+  | Branch a -> 
+    let left_acc = fold_left a.left ~acc:acc ~f in
+    (* le left_acc = f new_acc  *)
+    let res_acc = f left_acc a.item in
+    fold_left a.right ~acc:res_acc ~f;;
 
 let is_ordered (tree : 'a t) ~(compare : 'a -> 'a -> int) : bool =
   unimplemented ()

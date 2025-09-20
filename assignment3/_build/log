@@ -13,25 +13,13 @@
 #  ; build_dir = In_build_dir "default"
 #  ; instrument_with = []
 #  }
-$ /home/tobi/.opam/5.3.0/bin/ocamlc.opt -config > /tmp/dune_b2e805_output
+$ /home/tobi/.opam/5.3.0/bin/ocamlc.opt -config > /tmp/dune_0ce53b_output
 $ (cd _build/default/test && ./tests.exe)
-> EEEE.....EEEE..
-> ==============================================================================
-> Error: Assignment2 Tests:2:simpledict tests:6:combine.
->
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#03.log", line 5, characters 1-1:
-> Error: Assignment2 Tests:2:simpledict tests:6:combine (in the log).
->
-> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-> Called from Dict_tests.test_combine in file "test/dict_tests.ml", lines 68-72, characters 17-5
-> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
->
-> Failure("unimplemented")
-> ------------------------------------------------------------------------------
+> E..EE.....E.EEE
 > ==============================================================================
 > Error: Assignment2 Tests:2:simpledict tests:5:merge.
 >
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#04.log", line 5, characters 1-1:
+> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#01.log", line 14, characters 1-1:
 > Error: Assignment2 Tests:2:simpledict tests:5:merge (in the log).
 >
 > Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
@@ -41,9 +29,21 @@ $ (cd _build/default/test && ./tests.exe)
 > Failure("unimplemented")
 > ------------------------------------------------------------------------------
 > ==============================================================================
+> Error: Assignment2 Tests:2:simpledict tests:6:combine.
+>
+> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#08.log", line 5, characters 1-1:
+> Error: Assignment2 Tests:2:simpledict tests:6:combine (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Dict_tests.test_combine in file "test/dict_tests.ml", lines 68-72, characters 17-5
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("unimplemented")
+> ------------------------------------------------------------------------------
+> ==============================================================================
 > Error: Assignment2 Tests:2:simpledict tests:4:update.
 >
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#05.log", line 5, characters 1-1:
+> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#02.log", line 21, characters 1-1:
 > Error: Assignment2 Tests:2:simpledict tests:4:update (in the log).
 >
 > Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
@@ -55,7 +55,7 @@ $ (cd _build/default/test && ./tests.exe)
 > ==============================================================================
 > Error: Assignment2 Tests:2:simpledict tests:3:keys.
 >
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#08.log", line 26, characters 1-1:
+> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#01.log", line 5, characters 1-1:
 > Error: Assignment2 Tests:2:simpledict tests:3:keys (in the log).
 >
 > Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
@@ -68,7 +68,7 @@ $ (cd _build/default/test && ./tests.exe)
 > ==============================================================================
 > Error: Assignment2 Tests:2:simpledict tests:2:insert_and_lookup.
 >
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#08.log", line 18, characters 1-1:
+> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#02.log", line 13, characters 1-1:
 > Error: Assignment2 Tests:2:simpledict tests:2:insert_and_lookup (in the log).
 >
 > Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
@@ -80,23 +80,11 @@ $ (cd _build/default/test && ./tests.exe)
 > ==============================================================================
 > Error: Assignment2 Tests:2:simpledict tests:1:map.
 >
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#08.log", line 10, characters 1-1:
+> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#02.log", line 5, characters 1-1:
 > Error: Assignment2 Tests:2:simpledict tests:1:map (in the log).
 >
 > Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
 > Called from Dict_tests.test_map in file "test/dict_tests.ml", line 27, characters 11-55
-> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
->
-> Failure("unimplemented")
-> ------------------------------------------------------------------------------
-> ==============================================================================
-> Error: Assignment2 Tests:1:simpletree tests:5:fold_left.
->
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#08.log", line 2, characters 1-1:
-> Error: Assignment2 Tests:1:simpletree tests:5:fold_left (in the log).
->
-> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-> Called from Tree_tests.test_fold_left in file "test/tree_tests.ml", line 55, characters 20-67
 > Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
 >
 > Failure("unimplemented")
@@ -113,6 +101,6 @@ $ (cd _build/default/test && ./tests.exe)
 >
 > Failure("unimplemented")
 > ------------------------------------------------------------------------------
-> Ran: 15 tests in: 0.14 seconds.
-> FAILED: Cases: 15 Tried: 15 Errors: 8 Failures: 0 Skip:  0 Todo: 0 Timeouts: 0.
+> Ran: 15 tests in: 0.13 seconds.
+> FAILED: Cases: 15 Tried: 15 Errors: 7 Failures: 0 Skip:  0 Todo: 0 Timeouts: 0.
 [1]

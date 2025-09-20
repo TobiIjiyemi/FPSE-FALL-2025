@@ -1,3 +1,20 @@
-2025-09-20T22:05:39+00:00 LEAD#01 I: Start test Assignment2 Tests:0:Student tests:0:Dummy test 1.
-2025-09-20T22:05:39+00:00 LEAD#01 I: Test Assignment2 Tests:0:Student tests:0:Dummy test 1 is successful.
-2025-09-20T22:05:39+00:00 LEAD#01 I: End test Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-20T22:55:00+00:00 LEAD#01 I: Start test Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-20T22:55:00+00:00 LEAD#01 I: Test Assignment2 Tests:0:Student tests:0:Dummy test 1 is successful.
+2025-09-20T22:55:00+00:00 LEAD#01 I: End test Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-20T22:55:00+00:00 LEAD#01 I: Start test Assignment2 Tests:2:simpledict tests:3:keys.
+2025-09-20T22:55:00+00:00 LEAD#01 E: Test Assignment2 Tests:2:simpledict tests:3:keys exited with an error.
+2025-09-20T22:55:00+00:00 LEAD#01 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:3:keys.
+2025-09-20T22:55:00+00:00 LEAD#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-20T22:55:00+00:00 LEAD#01 E: Called from Base__List0.fold in file "src/list0.ml", line 43, characters 27-37
+2025-09-20T22:55:00+00:00 LEAD#01 E: Called from Dict_tests.test_keys in file "test/dict_tests.ml", lines 45-47, characters 4-19
+2025-09-20T22:55:00+00:00 LEAD#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-20T22:55:00+00:00 LEAD#01 E: 
+2025-09-20T22:55:00+00:00 LEAD#01 I: End test Assignment2 Tests:2:simpledict tests:3:keys.
+2025-09-20T22:55:00+00:00 LEAD#01 I: Start test Assignment2 Tests:2:simpledict tests:5:merge.
+2025-09-20T22:55:00+00:00 LEAD#01 E: Test Assignment2 Tests:2:simpledict tests:5:merge exited with an error.
+2025-09-20T22:55:00+00:00 LEAD#01 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:5:merge.
+2025-09-20T22:55:00+00:00 LEAD#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-20T22:55:00+00:00 LEAD#01 E: Called from Dict_tests.test_merge in file "test/dict_tests.ml", line 61, characters 15-28
+2025-09-20T22:55:00+00:00 LEAD#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-20T22:55:00+00:00 LEAD#01 E: 
+2025-09-20T22:55:00+00:00 LEAD#01 I: End test Assignment2 Tests:2:simpledict tests:5:merge.
