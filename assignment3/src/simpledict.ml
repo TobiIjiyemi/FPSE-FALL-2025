@@ -76,15 +76,7 @@ let rec insert (dict : 'a t) ~(key : string) ~(value : 'a) : 'a t =
         end; right = a.right};;
 
 let keys (dict : 'a t) : string list =
-  let rec traverse (dict : 'a t) (res : string list) : string list =
-    match dict with
-    | Leaf -> res
-    | Branch a ->
-      let dkey = a.item.key in
-      let new_res = dkey :: traverse a.left res in
-      traverse a.right new_res
-    in traverse dict [];;
-      (* traverse a.left res :: res;; *)
+  List.rev begin Simpletree.fold_left dict ~acc:[] ~f:(fun x y -> y.key :: x) end ;;
 
 let rec update (dict : 'a t) ~(key : string) ~(f : 'a option -> 'a) : 'a t =
   match dict with
@@ -100,8 +92,43 @@ let rec update (dict : 'a t) ~(key : string) ~(f : 'a option -> 'a) : 'a t =
       else
         Branch {item = {key = d_key; value = d_val}; left = (update a.left ~key ~f); right = a.right};;
 
+let in_dict (dict : 'a t) (key : string): bool =
+  match lookup dict ~key:key with
+  | Some a -> true
+  | None -> false;;
+
 let merge (a : 'a t) (b : 'a t) : 'a t =
-  unimplemented ()
+  (* keys of a, plus the keys of b... insert the keys. loop through a's keys, if
+    it's in b then use b's value and if itn's not use b's value...
+    and then loop through the b's keys, and add all the keys
+      *)
+  let a_keys = keys a in
+  let b_keys = keys b in
+  let rec loop1 first_d second_d first_key res =
+    match first_key with
+    | [] -> res
+    | hd :: tl -> 
+      if in_dict second_d hd then
+      loop1 first_d second_d tl begin insert res ~key:hd ~value: 
+      begin Option.value_exn (lookup second_d ~key:hd) end
+      end
+        (*build the branch and keep going*)
+      else
+        loop1 first_d second_d tl begin insert res ~key:hd ~value:(
+          Option.value_exn begin lookup first_d ~key:hd end
+          ) end
+      in 
+      let curr_dict = loop1 a b a_keys empty in
+    let rec loop2 first_d second_d second_key res = 
+      match second_key with
+    | [] -> res
+    | hd :: tl -> 
+      loop2 first_d second_d tl begin insert res ~key:hd ~value:(
+      Option.value_exn begin 
+      lookup second_d ~key:hd
+      end
+      ) end
+    in loop2 a b b_keys curr_dict;;
 
 let combine (a : 'a t) (b : 'b t) ~(f : string -> [ `Left of 'a | `Right of 'b | `Both of 'a * 'b ] -> 'c) : 'c t =
   unimplemented ()
