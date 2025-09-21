@@ -18,8 +18,8 @@ open Core
 (* Disables "unused variable" warning from dune while you're still solving these! *)
 [@@@ocaml.warning "-27"]
 
-let unimplemented () =
-  failwith "unimplemented"
+(* let unimplemented () =
+  failwith "unimplemented" *)
 
 type 'a t = 'a Dict_item.t Simpletree.t [@@deriving show]
 
@@ -131,4 +131,21 @@ let merge (a : 'a t) (b : 'a t) : 'a t =
     in loop2 a b b_keys curr_dict;;
 
 let combine (a : 'a t) (b : 'b t) ~(f : string -> [ `Left of 'a | `Right of 'b | `Both of 'a * 'b ] -> 'c) : 'c t =
-  unimplemented ()
+let all_keys = List.sort ~compare:String.compare (keys a @ keys b) in
+  let rec loop key_list acc =
+    match key_list with
+    | [] -> acc
+    | key :: tl ->
+      let val_a = lookup a ~key in
+      let val_b = lookup b ~key in
+      let next_acc =
+        match val_a, val_b with
+        | Some v_a, Some v_b -> insert acc ~key ~value:(f key (`Both (v_a, v_b)))
+        | Some v_a, None -> insert acc ~key ~value:(f key (`Left v_a))
+        | None, Some v_b -> insert acc ~key ~value:(f key (`Right v_b))
+        | None, None -> acc
+      in
+      loop tl next_acc
+  in
+  loop all_keys empty
+;;
