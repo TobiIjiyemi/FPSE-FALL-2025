@@ -38,6 +38,10 @@ let size (dict : 'a t) : int =
 let map (dict : 'a t) ~(f : string -> 'a -> 'b) : 'b t =
   unimplemented ()
 
+  (* grab value of dict_item at current node, compare dict_item key with
+  current key... if smaller, equal, or greater then recursively call with
+    appropriate 
+    *)
 let lookup (dict : 'a t) ~(key : string) : 'a option =
   unimplemented ()
 

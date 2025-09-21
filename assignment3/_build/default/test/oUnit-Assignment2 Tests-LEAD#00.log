@@ -1,0 +1,218 @@
+2025-09-21T16:18:15+00:00 LEAD#00 I: Runner: processes
+2025-09-21T16:18:15+00:00 LEAD#00 I: Chooser: simple
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration suite_name = "Assignment2 Tests"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration cache_filename = "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-$(suite_name).cache"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration run_gc_full_major = "true"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration display = "true"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration results_style_1_X = "false"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration testdata_dir = "none"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration health_check_interval = "1."
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration verbose = "false"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration chooser = "simple"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration output_html_dir = "none"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration processes_kill_period = "5."
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration runner = "processes"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration shards = "8"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration processes_grace_period = "5."
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration log_encoding = "utf-8"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration output_junit_file = "none"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration ci = "false"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Configuration output_file = "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-$(suite_name)-$(shard_id).log"
+2025-09-21T16:18:15+00:00 LEAD#00 I: Using 8 workers maximum.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Starting worker number LEAD#01.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#01 started.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Starting worker number LEAD#02.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#02 started.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Starting worker number LEAD#03.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#03 started.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Starting worker number LEAD#04.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#04 started.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Starting worker number LEAD#05.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#05 started.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Starting worker number LEAD#06.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#06 started.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Starting worker number LEAD#07.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#07 started.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Starting worker number LEAD#08.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#08 started.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced, Assignment2 Tests:1:simpletree tests:1:height, Assignment2 Tests:1:simpletree tests:0:size, Assignment2 Tests:0:Student tests:1:Dummy test 2, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-21T16:18:15+00:00 LEAD#01 I: Start test Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-21T16:18:15+00:00 LEAD#02 I: Start test Assignment2 Tests:0:Student tests:1:Dummy test 2.
+2025-09-21T16:18:15+00:00 LEAD#03 I: Start test Assignment2 Tests:1:simpletree tests:0:size.
+2025-09-21T16:18:15+00:00 LEAD#04 I: Start test Assignment2 Tests:1:simpletree tests:1:height.
+2025-09-21T16:18:15+00:00 LEAD#05 I: Start test Assignment2 Tests:1:simpletree tests:2:is_balanced.
+2025-09-21T16:18:15+00:00 LEAD#06 I: Start test Assignment2 Tests:1:simpletree tests:3:is_ordered.
+2025-09-21T16:18:15+00:00 LEAD#07 I: Start test Assignment2 Tests:1:simpletree tests:4:map.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced, Assignment2 Tests:1:simpletree tests:1:height, Assignment2 Tests:1:simpletree tests:0:size, Assignment2 Tests:0:Student tests:1:Dummy test 2, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-21T16:18:15+00:00 LEAD#08 I: Start test Assignment2 Tests:1:simpletree tests:5:fold_left.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced, Assignment2 Tests:1:simpletree tests:1:height, Assignment2 Tests:1:simpletree tests:0:size, Assignment2 Tests:0:Student tests:1:Dummy test 2, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-21T16:18:15+00:00 LEAD#02 I: Test Assignment2 Tests:0:Student tests:1:Dummy test 2 is successful.
+2025-09-21T16:18:15+00:00 LEAD#04 I: Test Assignment2 Tests:1:simpletree tests:1:height is successful.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced, Assignment2 Tests:1:simpletree tests:1:height, Assignment2 Tests:1:simpletree tests:0:size, Assignment2 Tests:0:Student tests:1:Dummy test 2, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-21T16:18:15+00:00 LEAD#02 I: End test Assignment2 Tests:0:Student tests:1:Dummy test 2.
+2025-09-21T16:18:15+00:00 LEAD#04 I: End test Assignment2 Tests:1:simpletree tests:1:height.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced, Assignment2 Tests:1:simpletree tests:1:height, Assignment2 Tests:1:simpletree tests:0:size, Assignment2 Tests:0:Student tests:1:Dummy test 2, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:simpledict tests:1:map, Assignment2 Tests:2:simpledict tests:0:empty_and_size, Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced, Assignment2 Tests:1:simpletree tests:0:size, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-21T16:18:15+00:00 LEAD#01 I: Test Assignment2 Tests:0:Student tests:0:Dummy test 1 is successful.
+2025-09-21T16:18:15+00:00 LEAD#03 I: Test Assignment2 Tests:1:simpletree tests:0:size is successful.
+2025-09-21T16:18:15+00:00 LEAD#04 I: Start test Assignment2 Tests:2:simpledict tests:0:empty_and_size.
+2025-09-21T16:18:15+00:00 LEAD#02 I: Start test Assignment2 Tests:2:simpledict tests:1:map.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:simpledict tests:1:map, Assignment2 Tests:2:simpledict tests:0:empty_and_size, Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced, Assignment2 Tests:1:simpletree tests:0:size, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-21T16:18:15+00:00 LEAD#01 I: End test Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-21T16:18:15+00:00 LEAD#03 I: End test Assignment2 Tests:1:simpletree tests:0:size.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:simpledict tests:1:map, Assignment2 Tests:2:simpledict tests:0:empty_and_size, Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced, Assignment2 Tests:1:simpletree tests:0:size, Assignment2 Tests:0:Student tests:0:Dummy test 1.
+2025-09-21T16:18:15+00:00 LEAD#02 E: Test Assignment2 Tests:2:simpledict tests:1:map exited with an error.
+2025-09-21T16:18:15+00:00 LEAD#02 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:1:map.
+2025-09-21T16:18:15+00:00 LEAD#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-21T16:18:15+00:00 LEAD#02 E: Called from Dict_tests.test_map in file "test/dict_tests.ml", line 27, characters 11-55
+2025-09-21T16:18:15+00:00 LEAD#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-21T16:18:15+00:00 LEAD#02 E: 
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:simpledict tests:3:keys, Assignment2 Tests:2:simpledict tests:2:insert_and_lookup, Assignment2 Tests:2:simpledict tests:1:map, Assignment2 Tests:2:simpledict tests:0:empty_and_size, Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced.
+2025-09-21T16:18:15+00:00 LEAD#02 I: End test Assignment2 Tests:2:simpledict tests:1:map.
+2025-09-21T16:18:15+00:00 LEAD#03 I: Start test Assignment2 Tests:2:simpledict tests:2:insert_and_lookup.
+2025-09-21T16:18:15+00:00 LEAD#01 I: Start test Assignment2 Tests:2:simpledict tests:3:keys.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:simpledict tests:3:keys, Assignment2 Tests:2:simpledict tests:2:insert_and_lookup, Assignment2 Tests:2:simpledict tests:1:map, Assignment2 Tests:2:simpledict tests:0:empty_and_size, Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced.
+2025-09-21T16:18:15+00:00 LEAD#03 E: Test Assignment2 Tests:2:simpledict tests:2:insert_and_lookup exited with an error.
+2025-09-21T16:18:15+00:00 LEAD#03 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:2:insert_and_lookup.
+2025-09-21T16:18:15+00:00 LEAD#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-21T16:18:15+00:00 LEAD#03 E: Called from Dict_tests.test_insert_and_lookup in file "test/dict_tests.ml", line 34, characters 10-44
+2025-09-21T16:18:15+00:00 LEAD#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-21T16:18:15+00:00 LEAD#03 E: 
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:simpledict tests:4:update, Assignment2 Tests:2:simpledict tests:3:keys, Assignment2 Tests:2:simpledict tests:2:insert_and_lookup, Assignment2 Tests:2:simpledict tests:0:empty_and_size, Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced.
+2025-09-21T16:18:15+00:00 LEAD#03 I: End test Assignment2 Tests:2:simpledict tests:2:insert_and_lookup.
+2025-09-21T16:18:15+00:00 LEAD#01 E: Test Assignment2 Tests:2:simpledict tests:3:keys exited with an error.
+2025-09-21T16:18:15+00:00 LEAD#01 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:3:keys.
+2025-09-21T16:18:15+00:00 LEAD#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-21T16:18:15+00:00 LEAD#01 E: Called from Base__List0.fold in file "src/list0.ml", line 43, characters 27-37
+2025-09-21T16:18:15+00:00 LEAD#01 E: Called from Dict_tests.test_keys in file "test/dict_tests.ml", lines 45-47, characters 4-19
+2025-09-21T16:18:15+00:00 LEAD#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-21T16:18:15+00:00 LEAD#01 E: 
+2025-09-21T16:18:15+00:00 LEAD#02 I: Start test Assignment2 Tests:2:simpledict tests:4:update.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:simpledict tests:4:update, Assignment2 Tests:2:simpledict tests:3:keys, Assignment2 Tests:2:simpledict tests:2:insert_and_lookup, Assignment2 Tests:2:simpledict tests:0:empty_and_size, Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced.
+2025-09-21T16:18:15+00:00 LEAD#05 I: Test Assignment2 Tests:1:simpletree tests:2:is_balanced is successful.
+2025-09-21T16:18:15+00:00 LEAD#06 I: Test Assignment2 Tests:1:simpletree tests:3:is_ordered is successful.
+2025-09-21T16:18:15+00:00 LEAD#07 I: Test Assignment2 Tests:1:simpletree tests:4:map is successful.
+2025-09-21T16:18:15+00:00 LEAD#08 I: Test Assignment2 Tests:1:simpletree tests:5:fold_left is successful.
+2025-09-21T16:18:15+00:00 LEAD#04 I: Test Assignment2 Tests:2:simpledict tests:0:empty_and_size is successful.
+2025-09-21T16:18:15+00:00 LEAD#01 I: End test Assignment2 Tests:2:simpledict tests:3:keys.
+2025-09-21T16:18:15+00:00 LEAD#02 E: Test Assignment2 Tests:2:simpledict tests:4:update exited with an error.
+2025-09-21T16:18:15+00:00 LEAD#02 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:4:update.
+2025-09-21T16:18:15+00:00 LEAD#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-21T16:18:15+00:00 LEAD#02 E: Called from Dict_tests.test_update in file "test/dict_tests.ml", line 52, characters 10-39
+2025-09-21T16:18:15+00:00 LEAD#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-21T16:18:15+00:00 LEAD#02 E: 
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:simpledict tests:5:merge, Assignment2 Tests:2:simpledict tests:4:update, Assignment2 Tests:2:simpledict tests:3:keys, Assignment2 Tests:2:simpledict tests:0:empty_and_size, Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced.
+2025-09-21T16:18:15+00:00 LEAD#05 I: End test Assignment2 Tests:1:simpletree tests:2:is_balanced.
+2025-09-21T16:18:15+00:00 LEAD#06 I: End test Assignment2 Tests:1:simpletree tests:3:is_ordered.
+2025-09-21T16:18:15+00:00 LEAD#07 I: End test Assignment2 Tests:1:simpletree tests:4:map.
+2025-09-21T16:18:15+00:00 LEAD#08 I: End test Assignment2 Tests:1:simpletree tests:5:fold_left.
+2025-09-21T16:18:15+00:00 LEAD#04 I: End test Assignment2 Tests:2:simpledict tests:0:empty_and_size.
+2025-09-21T16:18:15+00:00 LEAD#02 I: End test Assignment2 Tests:2:simpledict tests:4:update.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Still 8 tests running : Assignment2 Tests:2:simpledict tests:6:combine, Assignment2 Tests:2:simpledict tests:5:merge, Assignment2 Tests:2:simpledict tests:4:update, Assignment2 Tests:2:simpledict tests:0:empty_and_size, Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 8 tests running: Assignment2 Tests:2:simpledict tests:6:combine, Assignment2 Tests:2:simpledict tests:5:merge, Assignment2 Tests:2:simpledict tests:4:update, Assignment2 Tests:2:simpledict tests:0:empty_and_size, Assignment2 Tests:1:simpletree tests:5:fold_left, Assignment2 Tests:1:simpletree tests:4:map, Assignment2 Tests:1:simpletree tests:3:is_ordered, Assignment2 Tests:1:simpletree tests:2:is_balanced.
+2025-09-21T16:18:15+00:00 LEAD#03 I: Start test Assignment2 Tests:2:simpledict tests:5:merge.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Still 2 tests running : Assignment2 Tests:2:simpledict tests:6:combine, Assignment2 Tests:2:simpledict tests:5:merge.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 2 tests running: Assignment2 Tests:2:simpledict tests:6:combine, Assignment2 Tests:2:simpledict tests:5:merge.
+2025-09-21T16:18:15+00:00 LEAD#03 E: Test Assignment2 Tests:2:simpledict tests:5:merge exited with an error.
+2025-09-21T16:18:15+00:00 LEAD#03 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:5:merge.
+2025-09-21T16:18:15+00:00 LEAD#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-21T16:18:15+00:00 LEAD#03 E: Called from Dict_tests.test_merge in file "test/dict_tests.ml", line 61, characters 15-28
+2025-09-21T16:18:15+00:00 LEAD#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-21T16:18:15+00:00 LEAD#03 E: 
+2025-09-21T16:18:15+00:00 LEAD#01 I: Start test Assignment2 Tests:2:simpledict tests:6:combine.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Still 2 tests running : Assignment2 Tests:2:simpledict tests:6:combine, Assignment2 Tests:2:simpledict tests:5:merge.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 2 tests running: Assignment2 Tests:2:simpledict tests:6:combine, Assignment2 Tests:2:simpledict tests:5:merge.
+2025-09-21T16:18:15+00:00 LEAD#03 I: End test Assignment2 Tests:2:simpledict tests:5:merge.
+2025-09-21T16:18:15+00:00 LEAD#01 E: Test Assignment2 Tests:2:simpledict tests:6:combine exited with an error.
+2025-09-21T16:18:15+00:00 LEAD#01 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:6:combine.
+2025-09-21T16:18:15+00:00 LEAD#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-21T16:18:15+00:00 LEAD#01 E: Called from Dict_tests.test_combine in file "test/dict_tests.ml", lines 68-72, characters 17-5
+2025-09-21T16:18:15+00:00 LEAD#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-21T16:18:15+00:00 LEAD#01 E: 
+2025-09-21T16:18:15+00:00 LEAD#00 I: Still 2 tests running : Assignment2 Tests:2:simpledict tests:6:combine, Assignment2 Tests:2:simpledict tests:5:merge.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 2 tests running: Assignment2 Tests:2:simpledict tests:6:combine, Assignment2 Tests:2:simpledict tests:5:merge.
+2025-09-21T16:18:15+00:00 LEAD#01 I: End test Assignment2 Tests:2:simpledict tests:6:combine.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Still 1 tests running : Assignment2 Tests:2:simpledict tests:6:combine.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 1 tests running: Assignment2 Tests:2:simpledict tests:6:combine.
+2025-09-21T16:18:15+00:00 LEAD#00 I: 0 tests running: .
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#05 has ended.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#06 has ended.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#07 has ended.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#08 has ended.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#04 has ended.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#02 has ended.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#03 has ended.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Worker LEAD#01 has ended.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Used 8 worker during test execution.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Run 3 tests with shard LEAD#01.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Run 1 tests with shard LEAD#08.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Run 3 tests with shard LEAD#02.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Run 1 tests with shard LEAD#06.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Run 1 tests with shard LEAD#05.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Run 3 tests with shard LEAD#03.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Run 1 tests with shard LEAD#07.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Run 2 tests with shard LEAD#04.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Check health of shard LEAD#01, 1 times.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Check health of shard LEAD#08, 5 times.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Check health of shard LEAD#02, 5 times.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Check health of shard LEAD#06, 5 times.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Check health of shard LEAD#05, 5 times.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Check health of shard LEAD#03, 2 times.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Check health of shard LEAD#07, 5 times.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Check health of shard LEAD#04, 5 times.
+2025-09-21T16:18:15+00:00 LEAD#00 I: ==============
+2025-09-21T16:18:15+00:00 LEAD#00 I: Summary:
+2025-09-21T16:18:15+00:00 LEAD#00 E: Test Assignment2 Tests:2:simpledict tests:6:combine exited with an error.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:6:combine.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from Dict_tests.test_combine in file "test/dict_tests.ml", lines 68-72, characters 17-5
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-21T16:18:15+00:00 LEAD#00 E: 
+2025-09-21T16:18:15+00:00 LEAD#00 E: Test Assignment2 Tests:2:simpledict tests:5:merge exited with an error.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:5:merge.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from Dict_tests.test_merge in file "test/dict_tests.ml", line 61, characters 15-28
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-21T16:18:15+00:00 LEAD#00 E: 
+2025-09-21T16:18:15+00:00 LEAD#00 E: Test Assignment2 Tests:2:simpledict tests:4:update exited with an error.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:4:update.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from Dict_tests.test_update in file "test/dict_tests.ml", line 52, characters 10-39
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-21T16:18:15+00:00 LEAD#00 E: 
+2025-09-21T16:18:15+00:00 LEAD#00 I: Test Assignment2 Tests:2:simpledict tests:0:empty_and_size is successful.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Test Assignment2 Tests:1:simpletree tests:5:fold_left is successful.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Test Assignment2 Tests:1:simpletree tests:4:map is successful.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Test Assignment2 Tests:1:simpletree tests:3:is_ordered is successful.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Test Assignment2 Tests:1:simpletree tests:2:is_balanced is successful.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Test Assignment2 Tests:2:simpledict tests:3:keys exited with an error.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:3:keys.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from Base__List0.fold in file "src/list0.ml", line 43, characters 27-37
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from Dict_tests.test_keys in file "test/dict_tests.ml", lines 45-47, characters 4-19
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-21T16:18:15+00:00 LEAD#00 E: 
+2025-09-21T16:18:15+00:00 LEAD#00 E: Test Assignment2 Tests:2:simpledict tests:2:insert_and_lookup exited with an error.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:2:insert_and_lookup.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from Dict_tests.test_insert_and_lookup in file "test/dict_tests.ml", line 34, characters 10-44
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-21T16:18:15+00:00 LEAD#00 E: 
+2025-09-21T16:18:15+00:00 LEAD#00 E: Test Assignment2 Tests:2:simpledict tests:1:map exited with an error.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Failure("unimplemented") in test Assignment2 Tests:2:simpledict tests:1:map.
+2025-09-21T16:18:15+00:00 LEAD#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from Dict_tests.test_map in file "test/dict_tests.ml", line 27, characters 11-55
+2025-09-21T16:18:15+00:00 LEAD#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2025-09-21T16:18:15+00:00 LEAD#00 E: 
+2025-09-21T16:18:15+00:00 LEAD#00 I: Test Assignment2 Tests:1:simpletree tests:0:size is successful.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Test Assignment2 Tests:0:Student tests:0:Dummy test 1 is successful.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Test Assignment2 Tests:1:simpletree tests:1:height is successful.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Test Assignment2 Tests:0:Student tests:1:Dummy test 2 is successful.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Ran: 15 tests in: 0.12 seconds.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Cases: 15.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Tried: 15.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Errors: 6.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Failures: 0.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Skip: 0.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Todo: 0.
+2025-09-21T16:18:15+00:00 LEAD#00 I: Timeout: 0.

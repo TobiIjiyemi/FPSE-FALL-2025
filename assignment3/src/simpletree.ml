@@ -18,7 +18,7 @@ open Core
 (* Disables "unused variable" warning from dune while you're still solving these! *)
 [@@@ocaml.warning "-27"]
 
-let unimplemented () = failwith "unimplemented"
+(* let unimplemented () = failwith "unimplemented" *)
 
 type 'a t =
   | Leaf
@@ -58,5 +58,27 @@ let rec fold_left (tree : 'a t) ~(acc : 'acc) ~(f : 'acc -> 'a -> 'acc) : 'acc =
     let res_acc = f left_acc a.item in
     fold_left a.right ~acc:res_acc ~f;;
 
+let rec comp_nodes (tree : 'a t) ~(compare: 'a -> 'a -> int) (min_val: 'a option) (max_val: 'a option): bool = 
+  match tree with
+  | Leaf -> true
+  | Branch a ->
+    let item = a.item in
+    let below_min =
+      match min_val with
+      | Some min -> compare item min < 0
+      | None -> false
+    in 
+    let above_high = 
+      match max_val with
+      | Some max -> compare item max > 0
+      | None -> false
+    in
+    if below_min || above_high then
+      false
+    else 
+      comp_nodes a.left ~compare min_val (Some item) &&
+      comp_nodes a.right ~compare (Some item) max_val
+
 let is_ordered (tree : 'a t) ~(compare : 'a -> 'a -> int) : bool =
-  unimplemented ()
+  (* let rec loop (tree : 'a t) ~(compare : 'a -> 'a -> int) (max : ' a) : bool = *)
+  comp_nodes tree ~compare None None;;
