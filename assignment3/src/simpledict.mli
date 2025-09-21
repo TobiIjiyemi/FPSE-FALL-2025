@@ -5,7 +5,8 @@
   Mutation operations of OCaml are not allowed or required.
 *)
 
-type 'a t = 'a Dict_item.t Simpletree.t [@@deriving show]
+type 'a t = 'a Dict_item.t Simpletree.t 
+(* [@@deriving show] *)
 (** The dict type is a tree of ['a Dict_item.t]. Note that because this type is a tree, all [Simpletree] module functions will work on it.
     Like function applications, type parameters bind tightly, so this type is the same as [('a Dict_item.t) Simpletree.t].
   

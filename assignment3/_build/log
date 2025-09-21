@@ -13,13 +13,13 @@
 #  ; build_dir = In_build_dir "default"
 #  ; instrument_with = []
 #  }
-$ /home/tobi/.opam/5.3.0/bin/ocamlc.opt -config > /tmp/dune_46020e_output
+$ /home/tobi/.opam/5.3.0/bin/ocamlc.opt -config > /tmp/dune_181f80_output
 $ (cd _build/default/test && ./tests.exe)
-> ....EEE.....EEE
+> ...........FEE.
 > ==============================================================================
 > Error: Assignment2 Tests:2:simpledict tests:6:combine.
 >
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#01.log", line 14, characters 1-1:
+> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#03.log", line 8, characters 1-1:
 > Error: Assignment2 Tests:2:simpledict tests:6:combine (in the log).
 >
 > Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
@@ -31,7 +31,7 @@ $ (cd _build/default/test && ./tests.exe)
 > ==============================================================================
 > Error: Assignment2 Tests:2:simpledict tests:5:merge.
 >
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#03.log", line 13, characters 1-1:
+> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#01.log", line 8, characters 1-1:
 > Error: Assignment2 Tests:2:simpledict tests:5:merge (in the log).
 >
 > Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
@@ -41,54 +41,16 @@ $ (cd _build/default/test && ./tests.exe)
 > Failure("unimplemented")
 > ------------------------------------------------------------------------------
 > ==============================================================================
-> Error: Assignment2 Tests:2:simpledict tests:4:update.
->
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#02.log", line 13, characters 1-1:
-> Error: Assignment2 Tests:2:simpledict tests:4:update (in the log).
->
-> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-> Called from Dict_tests.test_update in file "test/dict_tests.ml", line 52, characters 10-39
-> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
->
-> Failure("unimplemented")
-> ------------------------------------------------------------------------------
-> ==============================================================================
 > Error: Assignment2 Tests:2:simpledict tests:3:keys.
 >
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#01.log", line 5, characters 1-1:
+> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#04.log", line 5, characters 1-1:
 > Error: Assignment2 Tests:2:simpledict tests:3:keys (in the log).
 >
-> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-> Called from Base__List0.fold in file "src/list0.ml", line 43, characters 27-37
-> Called from Dict_tests.test_keys in file "test/dict_tests.ml", lines 45-47, characters 4-19
+> Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
 > Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
 >
-> Failure("unimplemented")
-> ------------------------------------------------------------------------------
-> ==============================================================================
-> Error: Assignment2 Tests:2:simpledict tests:2:insert_and_lookup.
->
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#03.log", line 5, characters 1-1:
-> Error: Assignment2 Tests:2:simpledict tests:2:insert_and_lookup (in the log).
->
-> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-> Called from Dict_tests.test_insert_and_lookup in file "test/dict_tests.ml", line 34, characters 10-44
-> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
->
-> Failure("unimplemented")
-> ------------------------------------------------------------------------------
-> ==============================================================================
-> Error: Assignment2 Tests:2:simpledict tests:1:map.
->
-> File "/home/tobi/FPSE/FPSE-FALL-2025/assignment3/_build/default/test/oUnit-Assignment2 Tests-LEAD#02.log", line 5, characters 1-1:
-> Error: Assignment2 Tests:2:simpledict tests:1:map (in the log).
->
-> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-> Called from Dict_tests.test_map in file "test/dict_tests.ml", line 27, characters 11-55
-> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
->
-> Failure("unimplemented")
+> not equal
 > ------------------------------------------------------------------------------
 > Ran: 15 tests in: 0.12 seconds.
-> FAILED: Cases: 15 Tried: 15 Errors: 6 Failures: 0 Skip:  0 Todo: 0 Timeouts: 0.
+> FAILED: Cases: 15 Tried: 15 Errors: 2 Failures: 1 Skip:  0 Todo: 0 Timeouts: 0.
 [1]
