@@ -37,7 +37,6 @@ let test_insert_and_lookup _ =
   let d2 = D.insert d ~key:"k" ~value:42 in
   assert_equal (Some 42) @@ D.lookup d2 ~key:"k";
   assert_equal None @@ D.lookup d2 ~key:"zzz"
-
 (* The following tests require insert to work *)
 
 let test_keys _ =
@@ -46,7 +45,8 @@ let test_keys _ =
       ~f:(fun acc (k,v) -> D.insert acc ~key:k ~value:v)
       ~init:D.empty 
   in
-  assert_equal ["a";"m";"x"] @@ D.keys d
+  assert_equal ["a";"m";"x"] @@ D.keys d;
+  assert_equal [] @@ D.keys D.empty
 
 let test_update _ =
   let d = D.insert d1 ~key:"p" ~value:9 in
@@ -84,4 +84,5 @@ let series =
     ; "keys" >:: test_keys
     ; "update" >:: test_update
     ; "merge" >:: test_merge
-    ; "combine" >:: test_combine ]
+    ; "combine" >:: test_combine 
+    ]
