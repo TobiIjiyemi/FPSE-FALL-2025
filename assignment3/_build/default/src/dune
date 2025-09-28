@@ -1,0 +1,23 @@
+(library
+  (name dict_item)
+  (modules dict_item)
+  (libraries core)
+  (preprocess
+  (pps ppx_deriving.show)))
+
+(library
+  (name simpletree)
+  (modules simpletree)
+  (libraries core)
+  (preprocess
+  (pps ppx_deriving.show)))
+
+(library
+  (name simpledict)
+  (modules simpledict)
+  (libraries
+    simpletree
+    dict_item
+    core)
+  (preprocess
+  (pps ppx_deriving.show)))
