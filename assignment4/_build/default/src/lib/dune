@@ -1,0 +1,23 @@
+
+(library
+  (name keyword)
+  (modules keyword)
+  (libraries core)
+  (preprocess
+  (pps ppx_jane)))
+
+(library
+  (name histogram)
+  (modules histogram)
+  (libraries keyword core)
+  (preprocess
+  (pps ppx_jane)))
+
+(library
+  (name utils)
+  (modules utils)
+  (libraries
+    histogram
+    core
+    core_unix.sys_unix
+  ))

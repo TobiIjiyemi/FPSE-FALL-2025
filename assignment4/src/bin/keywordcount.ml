@@ -114,12 +114,22 @@
 *)
 
 open Core
-
 (*
   Your main code will replace this default implementation.
 *)
-let count_keywords target_dir = 
-  Stdio.printf "Target dir: %s\n" target_dir
+(* This is the main logic for the keyword counting application. *)
+let count_keywords target_dir =
+  (* regular expression to split code with delimiters as non-keyword character*)
+  let splitter = Re.compile (Re.Perl.re "[^a-zA-Z0-9_]+") in
+  Utils.get_ocaml_files target_dir
+  |> List.map ~f:In_channel.read_all
+  |> List.map ~f:Utils.filter_code
+  |> String.concat ~sep:" "
+  |> Re.split splitter
+  |> List.filter_map ~f:Keyword.of_string
+  |> Histogram.increment_many Histogram.empty
+  |> Histogram.to_string
+  |> print_endline
 
 (* 
   We use Cmdliner to parse the command line arguments for us.

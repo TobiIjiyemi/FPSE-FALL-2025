@@ -1,0 +1,12 @@
+
+(executable
+  (name keywordcount)
+  (modules keywordcount)
+  (libraries
+    core
+    core_unix
+    histogram
+    utils
+    cmdliner
+    re
+    ))

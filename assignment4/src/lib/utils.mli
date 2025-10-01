@@ -6,4 +6,6 @@
   Feel free to remove `placeholder` when you add your actual functions.
 *)
 
-val placeholder : unit
+val get_ocaml_files : string -> string list
+
+val filter_code : string -> string
