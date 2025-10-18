@@ -1,0 +1,9 @@
+(executable
+  (name ngrams)
+  (modules ngrams)
+  (libraries
+    core
+    cmdliner)
+  (preprocess (pps ppx_jane))
+  (promote
+    (until-clean)))
